@@ -217,11 +217,11 @@ namespace log
      *
      * A SLogger is a minimal logger that cannot buffer the logs messages. The logs are written the same way as a Logger instance does except that the flushing cannot be delegated.<br/>
      * A SLogger is `static` and not instantiable.<br/>
-     * As for Logger instances, a SLogger can individually enable/disable different logs types.<br/>
+     * Like the Logger instances, a SLogger can individually enable/disable different logs types.<br/>
      * By default, all logs types are enabled.
      *
      * The log messages are prepended with the following non-customizable sequence `"[LOG_TYPE] - "`.<br/>
-     * As for Logger instances, the newline sequence is customizable and defaulted at `"\n"`.
+     * Like the Logger instances, the newline sequence is customizable and defaulted at `"\n"`.
      */
     class SLogger
     {
