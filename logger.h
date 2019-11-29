@@ -13,10 +13,10 @@
 #include <ostream>
 
 /*!
- * \namespace log
+ * \namespace logs
  * \brief Namespace which contains logger-related implementations.
  */
-namespace log
+namespace logs
 {
     /*!
      * \enum LOG_TYPE
