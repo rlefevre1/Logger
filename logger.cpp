@@ -2,7 +2,7 @@
 
 #include <fstream>
 
-namespace log
+namespace logs
 {
     // Constructors
     Logger::Logger() : flags_logs_enabled_ {{INFO,     true}, {WARNING,        true}, {ERROR,      true}, {FATAL,      true}},
